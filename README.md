@@ -1,0 +1,2 @@
+# Sentiment_Recognition_MOSI
+In this repository I have built and trained a multimodal deep neural network for sentiment recognition using tf.keras/pytorch. Here I have worked with the MOSI dataset, which contains more than 2000 short videos.  Every video has a single label, which is a continuous value in range [-3, +3].  For this repo, the following tasks are defined on this dataset:      regression: using the raw values between [-3, +3]     classification with 2 classes: [-3, +3] values are converted to 2 classes: negative and positive.
